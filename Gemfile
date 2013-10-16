@@ -1,6 +1,5 @@
 source 'https://rubygems.org/'
 
-gem 'sax-machine', git: 'git@github.com:pauldix/sax-machine.git'
 gemspec
 
 group :development, :test do
