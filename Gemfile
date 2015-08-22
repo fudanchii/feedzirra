@@ -6,5 +6,6 @@ gem 'pry'
 
 group :test do
   gem 'rake'
-  gem 'ox'
+  gem 'ox', platform: :mri
+  gem 'oga', platform: :jruby
 end
